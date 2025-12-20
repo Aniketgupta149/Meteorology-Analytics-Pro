@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌦️ Weather Analytics Dashboard - Meteorological Data Analysis Platform
 
 A **professional-grade Data Analytics project** that transforms raw meteorological data into actionable insights with intelligent data-driven recommendations. This comprehensive dashboard leverages the OpenWeatherMap API to provide real-time weather monitoring, predictive trends, environmental health analysis, and multi-city comparisons.
@@ -263,3 +264,6 @@ For questions or suggestions, feel free to reach out!
 ---
 
 *Last Updated: December 2025*
+=======
+# Meteorology-Analytics-Pro
+>>>>>>> f2f80c00a4e5c7e86f6937ed0155e44c32623fae
