@@ -851,14 +851,12 @@ if city_input:
                 height=300,
                 xaxis=dict(
                     gridcolor='rgba(255,255,255,0.05)', 
-                    title="<b>TIMELINE</b>", 
-                    titlefont=dict(size=10),
+                    title=dict(text="<b>TIMELINE</b>", font=dict(size=10)),
                     tickangle=0
                 ),
                 yaxis=dict(
                     gridcolor='rgba(255,255,255,0.05)', 
-                    title=f"<b>TEMP ({temp_symbol})</b>", 
-                    titlefont=dict(size=10),
+                    title=dict(text=f"<b>TEMP ({temp_symbol})</b>", font=dict(size=10)),
                     showticklabels=False # Use text labels on bars instead
                 ),
                 showlegend=False
@@ -993,8 +991,8 @@ if city_input:
                     font=dict(color=TEXT_PRIMARY),
                     margin=dict(l=0, r=0, t=30, b=0),
                     height=350,
-                    xaxis=dict(gridcolor='rgba(255,255,255,0.05)', title="<b>HUMIDITY (%)</b>", titlefont=dict(size=10)),
-                    yaxis=dict(gridcolor='rgba(255,255,255,0.05)', title="<b>TEMP (°C)</b>", titlefont=dict(size=10)),
+                    xaxis=dict(gridcolor='rgba(255,255,255,0.05)', title=dict(text="<b>HUMIDITY (%)</b>", font=dict(size=10))),
+                    yaxis=dict(gridcolor='rgba(255,255,255,0.05)', title=dict(text="<b>TEMP (°C)</b>", font=dict(size=10))),
                     coloraxis_showscale=True,
                     coloraxis_colorbar=dict(
                         title="TEMP",
@@ -1029,8 +1027,8 @@ if city_input:
                     font=dict(color=TEXT_PRIMARY),
                     margin=dict(l=0, r=0, t=20, b=0),
                     height=350,
-                    xaxis=dict(gridcolor='rgba(255,255,255,0.05)', title="<b>WIND VELOCITY (m/s)</b>", titlefont=dict(size=10)),
-                    yaxis=dict(gridcolor='rgba(255,255,255,0.05)', title="<b>DENSITY</b>", titlefont=dict(size=10))
+                    xaxis=dict(gridcolor='rgba(255,255,255,0.05)', title=dict(text="<b>WIND VELOCITY (m/s)</b>", font=dict(size=10))),
+                    yaxis=dict(gridcolor='rgba(255,255,255,0.05)', title=dict(text="<b>DENSITY</b>", font=dict(size=10)))
                 )
                 st.plotly_chart(fig_wind, use_container_width=True)
                 
@@ -1053,8 +1051,8 @@ if city_input:
                     font=dict(color=TEXT_PRIMARY),
                     margin=dict(l=0, r=0, t=30, b=0),
                     height=350,
-                    xaxis=dict(gridcolor='rgba(255,255,255,0.05)', title="<b>TIMELINE</b>", titlefont=dict(size=10)),
-                    yaxis=dict(gridcolor='rgba(255,255,255,0.05)', title="<b>PRESSURE (hPa)</b>", titlefont=dict(size=10), range=[df['pressure'].min()-5, df['pressure'].max()+5])
+                    xaxis=dict(gridcolor='rgba(255,255,255,0.05)', title=dict(text="<b>TIMELINE</b>", font=dict(size=10))),
+                    yaxis=dict(gridcolor='rgba(255,255,255,0.05)', title=dict(text="<b>PRESSURE (hPa)</b>", font=dict(size=10)), range=[df['pressure'].min()-5, df['pressure'].max()+5])
                 )
                 st.plotly_chart(fig_pressure, use_container_width=True)
 
