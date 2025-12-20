@@ -4,7 +4,7 @@
 A **professional-grade Data Analytics project** that transforms raw meteorological data into actionable insights with intelligent data-driven recommendations. This comprehensive dashboard leverages the OpenWeatherMap API to provide real-time weather monitoring, predictive trends, environmental health analysis, and multi-city comparisons.
 
 
-![App Screenshot](assets/screenshot.png)
+![App Screenshot](assets/Screenshot.png)
 
 ---
 
