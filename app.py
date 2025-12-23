@@ -1320,7 +1320,7 @@ else:
                 Scientific Observation Platform
             </div>
             <h1 style='font-size: 3.5rem; font-weight: 800; margin-bottom: 20px; line-height: 1.1;'>
-                Meteorological <span style='color: {THEME_COLOR};'>Intelligence</span> Hub
+                Weather <span style='color: {THEME_COLOR};'>Analytics</span> Dashboard
             </h1>
             <p style='font-size: 1.2rem; color: rgba(255,255,255,0.6); max-width: 800px; margin: 0 auto 30px auto;'>
                 Access high-precision atmospheric data, predictive environmental modeling, and 
@@ -1377,7 +1377,7 @@ st.markdown("<div style='border-top: 1px solid rgba(255,255,255,0.1); padding-to
 st.markdown(f"""
     <div style='text-align: center;'>
         <div style='font-size: 1.2rem; font-weight: 800; background: linear-gradient(135deg, {THEME_COLOR} 0%, {ACCENT_COLOR} 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 10px;'>
-            METEOROLOGY ANALYTICS DASHBOARD
+            WEATHER ANALYTICS DASHBOARD
         </div>
         <div style='display: flex; justify-content: center; gap: 20px; margin-bottom: 15px; color: rgba(255,255,255,0.6); font-size: 0.85rem;'>
             <span>📊 Enterprise Data</span>
